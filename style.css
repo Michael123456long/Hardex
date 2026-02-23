@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(17, 0, 255);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("C:\Users\windows 11\Desktop\HTML PRACTICE\WhatsApp Image 2026-01-21 at 17.05.55.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 0, 255);
+    background-color: rgb(190, 190, 157);
+}
+nav {
+    width: 100%;
+    background-color: green;
+    padding: 15px 0;
+}
+.nav-tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-tabs li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+}
+.nav-tabs li a:hover {
+    color: #f4b400;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    padding: 12px 25px;
+    background: #f4b400;
+    color: #111;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}]
