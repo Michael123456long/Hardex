@@ -4,7 +4,6 @@ h1 {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("C:\Users\windows 11\Desktop\HTML PRACTICE\WhatsApp Image 2026-01-21 at 17.05.55.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,6 +26,7 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0;
+    background-image: url("C:\Users\windows 11\Desktop\Hardex Files\WhatsApp Image 2026-03-31 at 11.45.58.jpeg");
 }
 .nav-tabs li a {
     text-decoration: none;
@@ -56,4 +56,16 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
-}]
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    height: 200px;
+    width: 260px;
+
+}
+.back {
+    color: #000;
+    background-repeat: ;
+}
