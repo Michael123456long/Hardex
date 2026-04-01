@@ -69,3 +69,18 @@ form button {
     color: #000;
     background-repeat: ;
 }
+.pictorial {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 7px; /* space between images */
+  padding: 5px;
+}
+
+.pictorial img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover; /* keeps image aspect ratio and fills container */
+  border-radius: 8px; /* optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* optional: subtle shadow */
+}
+
